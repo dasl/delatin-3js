@@ -61,6 +61,7 @@ p {
 
 import Delatin from './index.js';
 import local_cycle from './tiles.js';
+import { OrbitControls } from "./OrbitControls.js"
 
 const info = document.getElementById('info');
 const speedEl = document.getElementById('speed');
@@ -208,7 +209,7 @@ function frame() {
     
 };
 
-let camera, scene, renderer, stats;
+let camera, scene, renderer, stats, controls;
 
 let mesh;
 
@@ -219,7 +220,7 @@ function init() {
     //
 
     camera = new THREE.PerspectiveCamera( 27, window.innerWidth / window.innerHeight, 1, 3500 );
-	camera.position.z = 10000;
+	camera.position.z = 2
 
     scene = new THREE.Scene();
     scene.background = new THREE.Color( 0xf5f5f5 );
@@ -234,8 +235,15 @@ function init() {
     const geometry = new THREE.BufferGeometry();
     // create a simple square shape. We duplicate the top left and bottom right
     // vertices because each vertex needs to appear once per triangle.
-    const vertices = new Float32Array( [
-        -1.0, -1.0,  1.0,
+    const coor = [].concat(...tin.coords.map((value, indx) => {
+        if(indx % 2 === 0) {
+            return [value, tin.coords[indx + 1], tin.heightAt(value, tin.coords[indx + 1])]
+        }
+    }).filter((value) => typeof value !== 'undefined'));
+
+    console.log(tin, coor);
+    const vertices = new Float32Array([// ...coor ]);
+       -1.0, -1.0,  1.0,
         1.0, -1.0,  1.0,
         1.0,  1.0,  1.0,
 
@@ -245,10 +253,21 @@ function init() {
     ] );
 
     // itemSize = 3 because there are 3 values (components) per vertex
-    geometry.setAttribute( 'position', new THREE.BufferAttribute( triangles, 3 ) );
+    geometry.setAttribute( 'position', new THREE.BufferAttribute( vertices, 3 ) );
     const material = new THREE.MeshBasicMaterial( { color: 0xff0000 } );
     const mesh = new THREE.Mesh( geometry, material );
+    console.log(mesh);
     scene.add(mesh)
+    
+    
+    const cubegeometry = new THREE.BoxGeometry()
+const cubematerial = new THREE.MeshBasicMaterial({
+    color: 0x00ff00,
+    wireframe: true,
+})
+
+const cube = new THREE.Mesh(cubegeometry, cubematerial)
+scene.add(cube)
     //
 
     renderer = new THREE.WebGLRenderer( { antialias: true } );
@@ -261,6 +280,7 @@ function init() {
     //
 
     //
+    controls = new OrbitControls( camera, renderer.domElement);
 
     window.addEventListener( 'resize', onWindowResize );
 
@@ -279,6 +299,7 @@ function onWindowResize() {
 
 function animate() {
     requestAnimationFrame( animate );
+    controls.update();
     render();
 
 }
