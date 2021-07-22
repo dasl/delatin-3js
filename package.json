@@ -1,0 +1,40 @@
+{
+  "name": "delatin",
+  "version": "0.2.0",
+  "description": "JavaScript terrain mesh generation tool",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "unpkg": "delatin.min.js",
+  "scripts": {
+    "pretest": "eslint index.js bench.js test/test.js",
+    "test": "node -r esm test/test.js",
+    "bench": "node -r esm bench.js",
+    "build": "terser -c -m -- index.js > delatin.min.js",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "files": [
+    "index.js",
+    "delatin.min.js"
+  ],
+  "eslintConfig": {
+    "extends": "mourner"
+  },
+  "keywords": [
+    "terrain",
+    "heightmap",
+    "delaunay",
+    "tin",
+    "mesh"
+  ],
+  "author": "Vladimir Agafonkin",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-mourner": "^3.0.0",
+    "esm": "^3.2.25",
+    "pngjs": "^3.4.0",
+    "tape": "^4.13.2",
+    "terser": "^4.6.11"
+  }
+}

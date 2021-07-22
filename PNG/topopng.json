@@ -1,0 +1,620 @@
+{
+  "batch": {
+    "Type": "topopng",
+    "Tags": {}
+  },
+  "objects": [
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00092_Y+00094",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 94208,
+        "y": 96256,
+        "minZ": 2770,
+        "maxZ": 2874.6412894068917,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00092_Y+00094.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00093_Y+00094",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 95232,
+        "y": 96256,
+        "minZ": 2773.453292535378,
+        "maxZ": 3194.018102404441,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00093_Y+00094.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00094_Y+00094",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 96256,
+        "y": 96256,
+        "minZ": 2929.000011559744,
+        "maxZ": 3321.666232253324,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00094_Y+00094.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00095_Y+00094",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 97280,
+        "y": 96256,
+        "minZ": 3159.2535743321364,
+        "maxZ": 3640.264500262624,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00095_Y+00094.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00096_Y+00094",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 98304,
+        "y": 96256,
+        "minZ": 3442.4923015067184,
+        "maxZ": 3841.5161437103375,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00096_Y+00094.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00092_Y+00095",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 94208,
+        "y": 97280,
+        "minZ": 2830,
+        "maxZ": 3069.923230524597,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00092_Y+00095.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00093_Y+00095",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 95232,
+        "y": 97280,
+        "minZ": 2851.977589479978,
+        "maxZ": 3186.176194219385,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00093_Y+00095.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00094_Y+00095",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 96256,
+        "y": 97280,
+        "minZ": 2998.2718264802293,
+        "maxZ": 3569.386073456757,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00094_Y+00095.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00095_Y+00095",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 97280,
+        "y": 97280,
+        "minZ": 3207.398662251356,
+        "maxZ": 3700,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00095_Y+00095.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00096_Y+00095",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 98304,
+        "y": 97280,
+        "minZ": 3435.1444420019566,
+        "maxZ": 3940.0011905226156,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00096_Y+00095.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00097_Y+00095",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 99328,
+        "y": 97280,
+        "minZ": 3592.520761075101,
+        "maxZ": 4315,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00097_Y+00095.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00098_Y+00095",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 100352,
+        "y": 97280,
+        "minZ": 3750.826384863977,
+        "maxZ": 4280.161441990469,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00098_Y+00095.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00099_Y+00095",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 101376,
+        "y": 97280,
+        "minZ": 4023.229115202889,
+        "maxZ": 4450.001609889674,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00099_Y+00095.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00095_Y+00096",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 97280,
+        "y": 98304,
+        "minZ": 3471.008095949456,
+        "maxZ": 3790.015609457786,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00095_Y+00096.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00096_Y+00096",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 98304,
+        "y": 98304,
+        "minZ": 3379.067636131355,
+        "maxZ": 3775.359317901406,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00096_Y+00096.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00097_Y+00096",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 99328,
+        "y": 98304,
+        "minZ": 3220.1180185902904,
+        "maxZ": 3757.445429395221,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00097_Y+00096.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00098_Y+00096",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 100352,
+        "y": 98304,
+        "minZ": 3208.4011222747145,
+        "maxZ": 4027.6558259488097,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00098_Y+00096.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00099_Y+00096",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 101376,
+        "y": 98304,
+        "minZ": 3797.6984986640805,
+        "maxZ": 4180,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00099_Y+00096.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00096_Y+00097",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 98304,
+        "y": 99328,
+        "minZ": 3370.3234063327786,
+        "maxZ": 3852.386904937548,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00096_Y+00097.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00097_Y+00097",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 99328,
+        "y": 99328,
+        "minZ": 3220.915194597598,
+        "maxZ": 3640.158096953739,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00097_Y+00097.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00098_Y+00097",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 100352,
+        "y": 99328,
+        "minZ": 3207.479512971007,
+        "maxZ": 3800.63079346502,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00098_Y+00097.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00099_Y+00097",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 101376,
+        "y": 99328,
+        "minZ": 3505.2528978933246,
+        "maxZ": 4005.089083274349,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00099_Y+00097.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00096_Y+00098",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 98304,
+        "y": 100352,
+        "minZ": 3640.158096953739,
+        "maxZ": 4150.992232782113,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00096_Y+00098.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00097_Y+00098",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 99328,
+        "y": 100352,
+        "minZ": 3326.354578357553,
+        "maxZ": 4011.3160548228366,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00097_Y+00098.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00098_Y+00098",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 100352,
+        "y": 100352,
+        "minZ": 3217.843499352999,
+        "maxZ": 3938.888002190833,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00098_Y+00098.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00099_Y+00098",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 101376,
+        "y": 100352,
+        "minZ": 3517.4657184533426,
+        "maxZ": 3941.1966965138477,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00099_Y+00098.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00096_Y+00099",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 98304,
+        "y": 101376,
+        "minZ": 3789.076868126402,
+        "maxZ": 4211.7220477994115,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00096_Y+00099.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00097_Y+00099",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 99328,
+        "y": 101376,
+        "minZ": 3795.2201932299013,
+        "maxZ": 4210.311218291588,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00097_Y+00099.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00098_Y+00099",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 100352,
+        "y": 101376,
+        "minZ": 3739.543721906123,
+        "maxZ": 4041.9893320525475,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00098_Y+00099.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00099_Y+00099",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 101376,
+        "y": 101376,
+        "minZ": 3550,
+        "maxZ": 3941.1966965138477,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00099_Y+00099.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00096_Y+00100",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 98304,
+        "y": 102400,
+        "minZ": 3834.1583349791126,
+        "maxZ": 4208.953699278609,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00096_Y+00100.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00097_Y+00100",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 99328,
+        "y": 102400,
+        "minZ": 3790,
+        "maxZ": 4090.3034965033175,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00097_Y+00100.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00098_Y+00100",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 100352,
+        "y": 102400,
+        "minZ": 3741.36094968591,
+        "maxZ": 3898.01810172959,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00098_Y+00100.png",
+      "Extension": "png"
+    },
+    {
+      "Type": "tile",
+      "Tags": {
+        "area_id": "tile_1024MTS_X+00099_Y+00100",
+        "format": "heightmap_png",
+        "source": "Delta Python",
+        "x": 101376,
+        "y": 102400,
+        "minZ": 3700.07291260458,
+        "maxZ": 3781.6778394636044,
+        "cell_size": 1,
+        "tile_size": 1024
+      },
+      "Host": "https://minio-storage.azurewebsites.net",
+      "Bucket": "delta-topopng",
+      "Path": "Output/Topography/2021-07-19/PNG/tile_1024MTS_X+00099_Y+00100.png",
+      "Extension": "png"
+    }
+  ]
+}
